@@ -1,0 +1,50 @@
+[
+  {
+    "day": 1,
+    "module": "AI Foundations",
+    "topic": "Prompt Engineering",
+    "question": "Can you explain Prompt Engineering and describe how you would use it in a real AI system?"
+  },
+  {
+    "day": 2,
+    "module": "Retrieval",
+    "topic": "RAG",
+    "question": "Can you explain Retrieval-Augmented Generation and why it is useful in AI systems?"
+  },
+  {
+    "day": 3,
+    "module": "Vector Databases",
+    "topic": "Embeddings and Vector Search",
+    "question": "What are embeddings and how are they used in vector search?"
+  },
+  {
+    "day": 4,
+    "module": "Agentic AI",
+    "topic": "AI Agents",
+    "question": "What is an AI agent and how does it differ from a normal LLM application?"
+  },
+  {
+    "day": 5,
+    "module": "MCP",
+    "topic": "Model Context Protocol",
+    "question": "What is Model Context Protocol and why is it useful for connecting AI models with tools?"
+  },
+  {
+    "day": 6,
+    "module": "Deployment",
+    "topic": "AI Deployment",
+    "question": "How would you deploy an AI application so that users can access it through an API?"
+  },
+  {
+    "day": 7,
+    "module": "Advanced RAG",
+    "topic": "Reranking and Query Transformation",
+    "question": "What is reranking in a RAG pipeline and how can it improve retrieval quality?"
+  },
+  {
+    "day": 8,
+    "module": "AI Systems",
+    "topic": "AI System Design",
+    "question": "How would you design an AI interviewer system that evaluates candidates and adapts questions based on their performance?"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "candidate_001",
+    "name": "Alex",
+    "completed_days": [1, 2, 3, 4, 5, 6, 7, 8],
+    "skipped_days": [9],
+    "attempts": {
+      "rag": 2,
+      "vector_databases": 1,
+      "prompt_engineering": 3
+    },
+    "learning_signals": [
+      "Strong understanding of RAG",
+      "Needs improvement in vector database architecture",
+      "Good prompt engineering knowledge"
+    ]
+  },
+  {
+    "id": "candidate_002",
+    "name": "Sam",
+    "completed_days": [1, 2, 3, 4],
+    "skipped_days": [5, 6],
+    "attempts": {
+      "rag": 1,
+      "prompt_engineering": 1
+    },
+    "learning_signals": [
+      "Beginner in RAG",
+      "Good understanding of prompts"
+    ]
+  }
+]
