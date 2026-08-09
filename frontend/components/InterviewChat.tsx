@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://ai-interview-agent-1-lhu8.onrender.com";
 
 export default function InterviewChat() {
   const [question, setQuestion] = useState("");
@@ -86,8 +86,8 @@ export default function InterviewChat() {
 
       if (error instanceof TypeError) {
         alert(
-          "Could not connect to FastAPI.\n\n" +
-            "Make sure the backend is running on http://localhost:8000"
+          "Could not connect to the deployed FastAPI backend.\n\n" +
+            "Please make sure the backend is running on Render."
         );
       } else if (error instanceof Error) {
         alert(
@@ -190,6 +190,7 @@ export default function InterviewChat() {
 
       console.log("Sending answer:", answer);
       console.log("Interview ID:", interviewId);
+      console.log("Backend:", API_URL);
 
       const response = await fetch(
         `${API_URL}/interview/answer`,
@@ -337,7 +338,6 @@ export default function InterviewChat() {
       }
 
       setAnswer("");
-
     } catch (error) {
       console.error(
         "SUBMIT ERROR:",
@@ -348,8 +348,8 @@ export default function InterviewChat() {
         error instanceof TypeError
       ) {
         alert(
-          "Could not connect to FastAPI.\n\n" +
-            "Make sure the backend is running on http://localhost:8000"
+          "Could not connect to the deployed FastAPI backend.\n\n" +
+            "Please make sure the backend is running on Render."
         );
       } else if (
         error instanceof Error
@@ -674,6 +674,7 @@ export default function InterviewChat() {
           )}
 
         </div>
+
       )}
 
     </div>
